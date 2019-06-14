@@ -1,0 +1,13 @@
+body{
+    background-image: url("spotLight.jpg");
+}
+.headCards{
+    margin-top: 10px;
+}
+.cardImage{
+    height:200px;
+}
+#searchForshoes{
+    /* background: red; */
+    color: whitesmoke;
+}
