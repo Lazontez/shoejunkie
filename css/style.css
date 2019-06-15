@@ -1,5 +1,12 @@
 body{
     background-image: url("spotLight.jpg");
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+header{
+        font-family: 'Allerta Stencil', sans-serif;
+
 }
 .headCards{
     margin-top: 10px;

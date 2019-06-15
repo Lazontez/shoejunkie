@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Source+Code+Pro&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous"></script>
 
 
     <title>ShoeJunkie</title>
@@ -15,7 +20,7 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark" id="header">
         <a class="navbar-brand" href="#">
             <img src="css/logoImage.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
             ShoeJunkie
@@ -24,39 +29,40 @@
     <div class="container">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="card headCards" style="width: 18rem;" id="upcomingReleases">
                         <img src="css/calender.jpg" class="card-img-top cardImage" alt="...">
                         <div class="card-body">
                             <h4>Upcoming Releases</h4>
-                            <button type="button" class="btn btn-info btn-sm">See Releases</button>
+                            <button type="button" class="btn btn-info btn-sm" id="upcomingReleasesBtn">See Releases</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 col-sm-12">
                     <div class="card headCards" style="width: 18rem;" id="trending">
                         <img src="css/trendingGraph.jpg" class="card-img-top cardImage" alt="...">
                         <div class="card-body">
                             <h4>Trending Shoes</h4>
-                            <button type="button" class="btn btn-info btn-sm">See Trending</button>
+                            <button type="button" class="btn btn-info btn-sm"id="trendingBtn">See Trending</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="card headCards" style="width: 18rem;" id="devPicks">
                         <img src="css/devShoes.jpg" class="card-img-top cardImage" alt="...">
                         <div class="card-body">
                             <h4>DevPicks</h4>
-                            <button type="button" class="btn btn-info btn-sm">See Picks</button>
+                            <button type="button" class="btn btn-info btn-sm"id="devPicksBtn">See Picks</button>
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <form id="searchForshoes">
+        <form id="WishList">
         </form>
     </div>
+    <script src="javascript/function.js"></script>
 </body>
 
 </html>
