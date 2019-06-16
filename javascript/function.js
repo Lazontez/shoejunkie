@@ -1,6 +1,7 @@
 
 $("#upcomingReleasesBtn").on("click", function(){
-    console.log("Releases Click")
+    $("#frontPage").hide()
+    $("#upcomimgReleasesSector").show()
 });
 $("#devPicksBtn").on("click", function(){
     console.log("Dev Picks Click")

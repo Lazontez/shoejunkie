@@ -18,3 +18,12 @@ header{
     /* background: red; */
     color: whitesmoke;
 }
+#upcomimgReleasesSector{
+    display: none;
+}
+#shoeDatesHeader{
+    color: red;
+    /* text-align: center; */
+    margin-top:3px;
+    /* background: red; */
+}

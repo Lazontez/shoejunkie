@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="http://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-              crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
 
 
     <title>ShoeJunkie</title>
@@ -27,14 +26,16 @@
         </a>
     </nav>
     <div class="container">
-        <div class="container">
+
+        <div class="container" id="frontPage">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="card headCards" style="width: 18rem;" id="upcomingReleases">
                         <img src="css/calender.jpg" class="card-img-top cardImage" alt="...">
                         <div class="card-body">
                             <h4>Upcoming Releases</h4>
-                            <button type="button" class="btn btn-info btn-sm" id="upcomingReleasesBtn">See Releases</button>
+                            <button type="button" class="btn btn-info btn-sm" id="upcomingReleasesBtn">See
+                                Releases</button>
                         </div>
                     </div>
                 </div>
@@ -43,7 +44,7 @@
                         <img src="css/trendingGraph.jpg" class="card-img-top cardImage" alt="...">
                         <div class="card-body">
                             <h4>Trending Shoes</h4>
-                            <button type="button" class="btn btn-info btn-sm"id="trendingBtn">See Trending</button>
+                            <button type="button" class="btn btn-info btn-sm" id="trendingBtn">See Trending</button>
                         </div>
                     </div>
                 </div>
@@ -52,15 +53,29 @@
                         <img src="css/devShoes.jpg" class="card-img-top cardImage" alt="...">
                         <div class="card-body">
                             <h4>DevPicks</h4>
-                            <button type="button" class="btn btn-info btn-sm"id="devPicksBtn">See Picks</button>
+                            <button type="button" class="btn btn-info btn-sm" id="devPicksBtn">See Picks</button>
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <form id="WishList">
-        </form>
+    </div>
+    <div id="upcomimgReleasesSector">
+        <h1 id="shoeDatesHeader">Shoe Dates</h1>
+        <iframe id="calender"
+            src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%235a5160&amp;ctz=America%2FChicago&amp;src=a3ZiMTZoc21kNDlxNWxpbm5rN2IzdjM4cGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF&amp;color=%230B8343&amp;showTitle=0&amp;showPrint=0&amp;showTz=0&amp;showNav=0&amp;showDate=1&amp;showTabs=1&amp;title=Shoe%20Dates"
+            style="border:solid 1px #777" width="500" height="500" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div id="trendingShoesSector">
+
+    </div>
+    <div id="DevPicksSector">
+
+    </div>
+
+    <form id="WishList">
+    </form>
     </div>
     <script src="javascript/function.js"></script>
 </body>
