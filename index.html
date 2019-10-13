@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='fullcalendar/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+
+    <script src='fullcalendar/core/main.js'></script>
+    <script src='fullcalendar/daygrid/main.js'></script>
+
+
+
     <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
 
@@ -24,6 +32,7 @@
             <img src="css/logoImage.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
             ShoeJunkie
         </a>
+        <button type="button" class="btn btn-danger btn-md" id="blogBtn">blogX</button>
     </nav>
     <div class="container">
 
@@ -68,15 +77,22 @@
             style="border:solid 1px #777" width="500" height="500" frameborder="0" scrolling="no"></iframe>
     </div>
     <div id="trendingShoesSector">
+        <h1 id="trendingShoesHeader">Trending Shoes<h1>
 
     </div>
-    <div id="DevPicksSector">
-
+    <div id="devPicksSector">
+        <h1>Developers Top Rated Shoes</h1>
     </div>
-
-    <form id="WishList">
-    </form>
+    <div id="WishListSector">
+        <form id="WishList">
+        </form>
     </div>
+    <div id="blogSector">
+        <h1 id="blogMainHeader" style="text-align: center" class="col-md-12">blogX x Culture</h1>
+        
+    </div>
+    
+   
     <script src="javascript/function.js"></script>
 </body>
 
