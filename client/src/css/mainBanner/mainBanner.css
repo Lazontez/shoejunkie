@@ -1,0 +1,32 @@
+#mainBanner{
+    background-image: url("../background1.jpg");
+    height: 800px;
+    width:1250px;
+    background-repeat: no-repeat;
+    
+}
+#featuredSneakerHeader{
+    position: relative;
+    left : 50px;
+    top : 550px;
+    color : #dc3545;
+    padding : 20px;
+    font-family: 'Anton', sans-serif;
+    z-index: 0;
+
+
+}
+.seeMoreBtn{
+    border-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#dc3545;
+}
+#featuredSneakerName{
+    margin-top:15px;
+    font-size: 40px;
+    
+}

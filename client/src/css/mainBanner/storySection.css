@@ -1,0 +1,33 @@
+#mainBannerStorySection{
+    margin-top: 300px;
+    padding : 100px;
+    padding-bottom: 0px;
+}
+.storySection{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding:50px;
+    margin-top:50px;
+
+}
+.storySectionHeader{
+    font-family: 'Long Cang', cursive;
+
+}
+#devPickShoe:hover{
+    border-bottom: 2px solid black;
+}
+.storyHeadline{
+    font-family: 'Anton', sans-serif;
+
+}
+.seeMoreBtn{
+    border-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #dc3545;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+}

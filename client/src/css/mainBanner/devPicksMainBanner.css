@@ -1,0 +1,13 @@
+#DevPicksMainBannerHeader{
+    padding : 50px;
+    color :black;
+    font-family: 'Long Cang', cursive;
+
+}
+.devPicksContent{
+    padding : 50px;
+    border-bottom: 1px solid black;
+}
+.devPicksShoeName{
+    text-align: center;
+}

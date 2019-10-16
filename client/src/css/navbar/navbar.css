@@ -1,0 +1,13 @@
+#header{
+    font-family: 'Allerta Stencil', sans-serif; 
+    padding: 0px;
+    background-color:white;
+    /* border-bottom: 1px solid black; */
+    position: sticky;
+    top:0px;
+    left:0px;
+    z-index: 4;
+}
+.navLink{
+    color : black;
+}
