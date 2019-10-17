@@ -47,7 +47,7 @@ class Navbar extends Component {
                         </li>
                        <span style={{"color":"grey"}}>  </span>
                         <li style={{"display" : "inline" , "marginRight" : "10px"}}>
-                            <a className="navLink" href="/"> <small style={{"color":"grey" , "padding":"10px"}}>Trending</small></a>
+                            <a className="navLink" href="/trending"> <small style={{"color":"grey" , "padding":"10px"}}>Trending</small></a>
                         </li>
                         <span style={{"color":"grey"}}>  </span>
                         {/* <li style={{"display" : "inline"}}>
