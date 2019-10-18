@@ -3,6 +3,9 @@
 }
 .shoeArea{
     padding:20px;
-    border:1px solid black
+    border: 0.1px solid grey;
 
+}
+.shoeDisplay{
+    border: 3px solid black;
 }

@@ -54,7 +54,9 @@ class Navbar extends Component {
                             <a className="navLink" href="/"><small style={{"color":"grey"}}>Devpicks</small></a>
                         </li> */}
                         <li style={{"display" : "inline"}}>
-                        <i style={{"color":"grey" , "padding":"10px"}}className="fas fa-search navLink" ></i>                                  
+                            <a href="/">
+                        <i style={{"color":"grey" , "padding":"10px"}}className="fas fa-home navLink" ></i>  
+                        </a>                                
                         </li>
                     </ul>
                 </nav>

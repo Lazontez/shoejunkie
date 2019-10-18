@@ -4,6 +4,7 @@ import trendingContentCss from "../../css/trendingShoesContent/trendingContent.c
 
 
 
+
 class TrendingContent extends Component {
 
 
@@ -24,33 +25,42 @@ class TrendingContent extends Component {
 
     }
 
+
     render() {
+
+        const spinnerCSS={
+            "textAlign":"center" ,
+            "alignContent":"center"
+            
+        }
         if (this.state.data[0] === "null") {
             return (
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5"></div>
                         
-                        <div className="col-md-2">
+                        <div className="col-md-2" style={spinnerCSS}>
                             <div className="spinner-grow" style={{ "width": "3rem", "height": "3rem", "alignContent": "center" }} role="status" >
                                 <span className="sr-only">Loading...</span>
                             </div>
-                            <div className="col-md-5"></div>
                         </div>
+                            <div className="col-md-5">
+
+                            </div>
                     </div>
                 </div>
             )
         } else {
             return (
 
-                <div className="container">
+                <div className="container shoeDisplay" >
                     <div className="row">
                         {this.state.data.map((data, i) => {
                             return (
                                 <div className="col-md-4 shoeArea" style={trendingContentCss}>
                                     <h6 className="numberRank">{i + 1}.</h6>
                                     <div className="shoeContent" style={{ "textAlign": "center" }}>
-                                        <img className="shoeImage" height="250px" width="300px" alt={data.shoeName} src={data.image}></img>
+                                        <img className="shoeImage" height="150px" width="200px" alt={data.shoeName} src={data.image}></img>
                                         <div className="shoeName" id={data.shoeName}>{data.shoeName}</div>
                                     </div>
                                 </div>
