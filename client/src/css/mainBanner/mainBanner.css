@@ -1,7 +1,7 @@
 #mainBanner{
     background-image: url("../background1.jpg");
     height: 800px;
-    width:1400px;
+    width:400%;
     z-index: 2;
     background-repeat: no-repeat;
     
