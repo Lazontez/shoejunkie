@@ -7,14 +7,14 @@ import Footer from "../components/footer/footer"
 class MainPage extends Component {
     render() {
         return (
-            <div>
+            <span>
                 <Navbar />
                 <MainBanner />
                 <DevPicksMainBanner />
                 <MainBannerStorySection />
                 <Footer />
                
-            </div>
+            </span>
         )
 
     }
