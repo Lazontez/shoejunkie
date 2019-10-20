@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MainPage from "./pages/mainPage"
 import TrendingShoesPage from "./pages/trendingShoesPage"
+import UpcomingShoesPage from './pages/upcomingShoesPage'
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <Switch>
       <Route  exact path="/" component={MainPage} />
       <Route  exact path="/trending" component={TrendingShoesPage} />
+      <Route  exact path="/upcoming" component={UpcomingShoesPage} />
+
 
       </Switch>
     </Router>
