@@ -1,4 +1,4 @@
-# sneaker world
+# Sneaker World
 Sneaker Culture Web Application built with React Components. The application is designed to give sneaker enthusiast a information portable regarding 
 upcoming sneaker releases as well as the top 30 trending shoes sold on flightclub.com . Look over it and give me feedback on improvements to the site or fork the website and add additional functionality.
 
