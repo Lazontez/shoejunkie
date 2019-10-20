@@ -10,7 +10,7 @@ class UpcomingShoesPage extends React.Component{
         return(
             <span>
                 <NavBar />
-                
+                <UpcomingShoesHeader />
                 <ShoeContent />
                 <Footer />
 
