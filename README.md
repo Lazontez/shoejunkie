@@ -3,7 +3,7 @@ Sneaker Culture Web Application built with React Components. The application is 
 upcoming sneaker releases as well as the top 30 trending shoes sold on flightclub.com . Look over it and give me feedback on improvements to the site or fork the website and add additional functionality.
 
 <span>
-<img src="appScrennShot2.PNG" style="float: left" alt="Home Page" width="350" height="200"/>
+<img src="appScreenShot2.PNG" style="float: left" alt="Home Page" width="350" height="200"/>
 <img src="appScreenShot1.PNG" style="" alt="Trending Shoes Page" width="350" height="200"/>
 </span>
 
