@@ -18,10 +18,10 @@ function UpcomingReleasesHeader() {
                 <div className="col-md-6" style={{ "textAlign": "right" }}>
                     <span  >
                         <h2 id="top30-heading">
-                            Sneakers x Future
+                             Future x Sneakers
                         </h2>
-                        <div style={{"textAlign": "none"}} >
-                            <q id="top30-subQuote" style={{ "color": "red"}}><b>Incoming Sneaker Alert</b></q>
+                        <div style={{"textAlign": "right"}} >
+                            <q id="top30-subQuote" style={{ "color": "red" , "paddingRight":"3px"}}><b>The Future is Now and Forever</b></q>
                         </div>
                     </span>
                 </div>

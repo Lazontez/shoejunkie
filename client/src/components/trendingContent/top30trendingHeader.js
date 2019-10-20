@@ -20,8 +20,8 @@ function Top30trending() {
                         <h2 id="top30-heading">
                             Top 30 x Sneakers
                         </h2>
-                        <div style={{"textAlign": "none"}} >
-                            <q id="top30-subQuote" style={{ "color": "red"}}><b>Most Sold Shoes On FlightClub</b></q>
+                        <div style={{"textAlign": "right"}} >
+                            <q id="top30-subQuote" style={{ "color": "red"  , "paddingRight":"10px"}}><b>Most Sold Shoes On FlightClub</b></q>
                         </div>
                     </span>
                 </div>
