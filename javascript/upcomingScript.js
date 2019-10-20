@@ -12,9 +12,9 @@ function upcomingReleases(cb){
         const upcomingShoes = []
         $("div .release-date-item-wrapper").each((i , ele)=>{
                 const data = {
-                    releaseDate:$(ele).children().find(".event-date").text().trim() ,
+                    releaseDate:$(ele).children().find(".event-date").text().trim().replace( "/\s/g", "") ,
                     moreInfoLink : "https://www.kixify.com"+$(ele).children().next().children().find("a").attr("href"),
-                    shoeName : $(ele).children().next().next().children().children().text() ,
+                    shoeName : $(ele).children().next().next().children().children().text().replace( "/\s/g", '').toUpperCase() ,
                     image : $(ele).children().next().children().children().attr("src")
                 }       
 
