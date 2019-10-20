@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "../components/navbar/navbar"
-import ShoeContent from "../components/upcomingShoeContent/shoeContent"
-import Footer from "../components/footer/footer"
+import NavBar from "../components/navbar/navbar";
+import ShoeContent from "../components/upcomingShoeContent/shoeContent";
+import Footer from "../components/footer/footer";
 class UpcomingShoesPage extends React.Component{
 
     render(){
@@ -9,6 +9,7 @@ class UpcomingShoesPage extends React.Component{
         return(
             <span>
                 <NavBar />
+
                 <ShoeContent />
                 <Footer />
 
