@@ -18,6 +18,9 @@ const goatScript = (cb) => {
                     }
                     // console.log(iteration+". "+data.image)
                     trendingShoes.push(data)
+                    if(iteration === 30){
+                        return false
+                    }
                 })
                 if (i = 1) {
                     console.log("Returning Trending Shoes Found From")
