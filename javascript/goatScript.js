@@ -18,7 +18,7 @@ const goatScript = (cb) => {
                     }
                     // console.log(iteration+". "+data.image)
                     trendingShoes.push(data)
-                    if(iteration === 30){
+                    if(iteration === 29){
                         return false
                     }
                 })
