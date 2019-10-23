@@ -43,18 +43,18 @@ class Navbar extends Component {
                     </span>
                     <div >
                         <ul style={{ "padding": "15px", "marginRight": "20px"}}>
-                            <li style={{ "display": "inline" }}>
+                            <li style={{ "display": "inline" }} className="nav-item">
                                 <a className="navLink" href="/upcoming" ><small style={{ "color": "grey", "padding": "10px" }}> Upcoming Releases</small></a>
                             </li>
                             <span style={{ "color": "grey" }}>  </span>
-                            <li style={{ "display": "inline", "marginRight": "10px" }}>
+                            <li style={{ "display": "inline", "marginRight": "10px" }} className="nav-item">
                                 <a className="navLink" href="/trending"> <small style={{ "color": "grey", "padding": "10px" }}>Trending</small></a>
                             </li>
                             <span style={{ "color": "grey" }}>  </span>
                             {/* <li style={{"display" : "inline"}}>
                             <a className="navLink" href="/"><small style={{"color":"grey"}}>Devpicks</small></a>
                         </li> */}
-                            <li style={{ "display": "inline" }}>
+                            <li style={{ "display": "inline" }} className="nav-item">
                                 <a href="/">
                                     <i style={{ "color": "grey", "padding": "10px" }} className="fas fa-home navLink" ></i>
                                 </a>

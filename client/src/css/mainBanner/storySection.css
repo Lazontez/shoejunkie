@@ -18,6 +18,13 @@
       font-size: medium; */
     }
   }
+  /* @media only screen and (max-width: 768px) {
+    .storySection{
+      width: 1400px;
+      font-size: large; 
+      height:500px
+    }
+  } */
 .storySectionHeader{
     font-family: 'Long Cang', cursive;
 
