@@ -11,6 +11,13 @@
     margin-top:50px;
 
 }
+@media only screen and (max-width: 360px) {
+    .storySection{
+      width: 360px;
+     /* height: 600px;
+      font-size: medium; */
+    }
+  }
 .storySectionHeader{
     font-family: 'Long Cang', cursive;
 
