@@ -1,5 +1,4 @@
 #DevPicksMainBannerHeader{
-    padding : 50px;
     color :black;
     font-family: 'Long Cang', cursive;
 
@@ -11,3 +10,24 @@
 .devPicksShoeName{
     text-align: center;
 }
+@media only screen and (max-width: 360px) {
+    .devPickShoe{
+        height: 600px;
+        width : 600px;
+        padding:100px;
+        margin-left: 200px;
+    }
+    .shoeImage{
+      width: 600px;
+     /* height: 600px;
+      font-size: medium; */
+    }
+   
+    #DevPicksMainBannerHeader{
+        position: relative; 
+        text-align: center;
+        margin-left: 300px;
+
+    
+    }
+  }

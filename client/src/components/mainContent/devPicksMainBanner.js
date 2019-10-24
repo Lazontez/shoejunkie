@@ -11,14 +11,14 @@ class DevPicksMainBanner extends Component {
                 <div className="container">
                     <div className="row devPicksContent" >
                         <div className="col-md-4 devPickShoe" style={{"padding":"20px"  , "textAlign":"center"}}>
-                            <img src="./images/offwhite.jpeg" alt="Developer Pick" ></img>
+                            <img src="./images/offwhite.jpeg" className="shoeImage" alt="Developer Pick" ></img>
                             <div style={{"marginTop":"10px"}}>
                                     <small> OFFWHITE X AIR PRESTO 'BLACK'
                                                     </small>
 
                                 </div>                        </div>
                         <div className="col-md-4 devPickShoe" style={{"padding":"20px"  , "textAlign":"center"}}>
-                                <img src="./images/greenNike.png" alt="Developer Pick" ></img>
+                                <img src="./images/greenNike.png" className="shoeImage" alt="Developer Pick" ></img>
                                 {/* <small class="devPicksShoeName"> CONCEPTS X SB DUNK LOW 'GREEN LOBSTER'</small> */}
                                 <div style={{"marginTop":"10px"}}>
                                     <small> CONCEPTS X SB DUNK LOW 'GREEN LOBSTER'
@@ -27,7 +27,7 @@ class DevPicksMainBanner extends Component {
                                 </div>
                         </div>
                         <div className="col-md-4 devPickShoe" style={{"padding":"20px" , "textAlign":"center"}}>
-                                <img src="./images/travis.png" alt="Developer Pick"></img>
+                                <img src="./images/travis.png" className="shoeImage" alt="Developer Pick"></img>
                                 <div  style={{"marginTop":"10px"}}>
                                     <small >TRAVIS SCOTT X AIR JORDAN  1 RETRO HIGH 
                                                     'MOCHA'
