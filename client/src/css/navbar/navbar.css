@@ -11,9 +11,17 @@
 .navLink{
     color : black;
 }
-/* @media only screen and (max-width: 768px) {
-    .navLink{
-        position: relative;
-        left:500px
+@media only screen and (max-width: 510px) {
+    .navigationLinks{
+        visibility: hidden;
+
     }
-  } */
+    .SneakerWrldTitle{
+        position: relative;
+        left:10%;
+        top:50px
+        
+    }
+
+    
+  }

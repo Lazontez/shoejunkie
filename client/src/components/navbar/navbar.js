@@ -37,12 +37,12 @@ class Navbar extends Component {
                         <a className="navbar-brand" href="/">
 
 
-                            <div style={{ "display": "inline", "textAlign": "center", }}>
-                                <span style={{ "textAlign": "center", "color": "black" }}><h4 style={{ "marginLeft": "50px" }}>SNEAKER WORLD</h4></span>
+                            <div style={{ "display": "inline", "textAlign": "center", }} className="SneakerWrldTitle">
+                                <span style={{ "textAlign": "center", "color": "black" }}><h4  style={{ "marginLeft": "50px" }}>SNEAKER WORLD</h4></span>
                             </div>
                         </a>
                     </span>
-                    <div >
+                    <div className="navigationLinks">
                         <ul style={{ "padding": "15px", "marginRight": "20px"}}>
                             <li style={{ "display": "inline" }} className="nav-item">
                                 <a className="navLink" href="/upcoming" ><small style={{ "color": "grey", "padding": "10px" }}> Upcoming Releases</small></a>
