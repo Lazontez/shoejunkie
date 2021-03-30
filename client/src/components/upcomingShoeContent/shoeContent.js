@@ -53,7 +53,7 @@ class ShoeContent extends Component {
 
                         {this.state.data.map(data => {
                             return (
-                                <div className="col-md-4 col-sm-6 shoeArea" >
+                                <div className="col-md-3 col-sm-6 shoeArea" >
                                     <div className="shoeContent" style={{ "textAlign": "center" }}>
                                         <h6 className="numberRank">{data.releaseDate}</h6>
                                         <img className="shoeImage" height="100px" width="150px" alt={data.shoeName} src={data.image}></img>

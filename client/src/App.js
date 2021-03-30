@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MainPage from "./pages/mainPage"
-// import TrendingShoesPage from "./pages/trendingShoesPage"
+// cd
 import UpcomingShoesPage from './pages/upcomingShoesPage'
 import './App.css';
 
