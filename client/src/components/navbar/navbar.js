@@ -15,11 +15,12 @@ class Navbar extends Component {
 
     navbarWatch = () => {
 
-        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
             document.getElementById("header").style.borderBottom = "2px solid black";
 
 
-        } else {
+        }
+         else {
             document.getElementById("header").style.borderBottom = "none";
 
 
@@ -31,7 +32,7 @@ class Navbar extends Component {
 
         return (
             <span>
-                <nav style={NavbarCSS} className="navbar" id="header" height="50px">
+                <nav style={NavbarCSS } className="navbar" id="header" height="50px">
                     <span>
                         <a className="navbar-brand" href="/">
 
@@ -47,9 +48,9 @@ class Navbar extends Component {
                                 <a className="navLink" href="/upcoming" ><small style={{ "color": "grey", "padding": "10px" }}> Upcoming Releases</small></a>
                             </li>
                             <span style={{ "color": "grey" }}>  </span>
-                            <li style={{ "display": "inline", "marginRight": "10px" }} className="nav-item">
+                            {/* <li style={{ "display": "inline", "marginRight": "10px" }} className="nav-item">
                                 <a className="navLink" href="/trending"> <small style={{ "color": "grey", "padding": "10px" }}>Trending</small></a>
-                            </li>
+                            </li> */}
                             <span style={{ "color": "grey" }}>  </span>
                             {/* <li style={{"display" : "inline"}}>
                             <a className="navLink" href="/"><small style={{"color":"grey"}}>Devpicks</small></a>

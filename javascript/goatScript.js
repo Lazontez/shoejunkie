@@ -2,36 +2,50 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 
-
+console.log("Goat Script")
 const goatScript = (cb) => {
-    axios.get("https://www.flightclub.com/sneakers")
+    axios.get("https://www.stadiumgoods.com/stadium-picks")
         .then((response) => {
-            console.log("made connection to https://www.flightclub.com/sneakers ")
+            // Axios is gathering HTML before Flightclubs page has loaded which is causing the elements needed to traverse to not be there at the time of
+            console.log("made connection to https://www.stadiumgoods.com/stadium-picks ")
             let $ = cheerio.load(response.data);
-            $("ul").each((i, ele) => {
+            $(".main").each((i, ele) => {
+                console.log("Here: "+$(ele).children().next())
+                let page = cheerio.load($(ele).children().next())
                 const trendingShoes = []
-                $(".item").each((iteration, element) => {
-
-                    let data = {
-                        shoeName: $(element).children().children().children().find("img").attr("alt").toUpperCase(),
-                        image: $(element).children().children().children().find("img").attr("src")
-                    }
-                    // console.log(iteration+". "+data.image)
-                    trendingShoes.push(data)
-                    if(iteration === 29){
-                        return false
-                    }
+                
+                page(".etojV").each((i , element)=>{
+                    console.log(element)
                 })
-                if (i = 1) {
-                    console.log("Returning Trending Shoes Found From")
-                    return cb(trendingShoes)
-                }
-                (i != 1) ? true : false
+                // $(".sc-1wc5x2x-0").each((iteration, element) => {
+
+                //     console.log(element)
+
+                //     console.log("New Image: "+$(element).children().children().children().find("img"))
+
+                //     let data = {
+                //         shoeName: $(element).children().children().children().find("img").attr("alt"),
+                //         image: $(element).children().children().children().find("img").attr("src")
+                //     }
+                    
+                
+                //     trendingShoes.push(data)
+                //     if(iteration === 29){
+                //         return false
+                //     }
+                    
+                // })
+                // if (i = 1) {
+                //     console.log(trendingShoes)
+                //     // return cb(trendingShoes)
+                // }
+                // (i != 1) ? true : false
 
             })
 
 
-        }).catch((err) => {
+        })
+        .catch((err) => {
             console.error(err)
         });
 
